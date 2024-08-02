@@ -1,0 +1,57 @@
+/* STYLE FOR NAVICATION PAR */
+@import "nav.css";
+/* STYLE For LOGIN/REGISTER*/
+#logo	{ 
+	border-radius: 25px;
+    border: 1px solid blue; 
+    width: 100px;
+    height: 100px; 
+   
+}
+*	{
+	color: white;
+}
+
+#main	{
+    width:700px;
+    height: 580px;
+    margin: 0 auto;
+    margin-top: 30px;
+    color:white;
+    border-radius: 25px;
+      padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: rgba(0,0,0,0.3);
+    font-size: 20px;
+    
+}
+h3 a{
+    text-decoration: none; 
+}
+h3:hover a{
+    border-radius: 50px;
+    font-size: 25px;
+    background-color: rgb(0, 255, 128);
+  color:black;
+  border: 3px solid black;
+  -webkit-filter: drop-shadow(10px 10px 10px rgb(157, 255, 0));
+  filter: drop-shadow(16px 16px 20px rgb(213, 255, 2));
+  text-decoration: none;
+}
+
+
+/* FOR BUTTON SIZE */
+#button{
+    color: black;
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: aqua;
+    
+}
+/* FOR NAME,LAST NAME EMAIL ETC TEXT SIE */
+input{
+    font-size: 20px;
+    
+}

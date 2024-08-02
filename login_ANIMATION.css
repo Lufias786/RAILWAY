@@ -1,0 +1,46 @@
+/* FOR NAVICTION BAR */
+.move span {
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+  
+  
+    color:white;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i));
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+
+  .neons {
+
+    text-align: center;
+ }
+ 
+ .neons h1 {
+   font-size: 25px;
+   text-align: center;
+    font-weight: bold;
+   -webkit-animation: glow 2s ease-in-out infinite alternate;
+   -moz-animation: glow 2s ease-in-out infinite alternate;
+   animation: glow 2s ease-in-out infinite alternate;
+   
+ }
+ 
+ @-webkit-keyframes glow {
+      from {
+       color: #fff;
+     text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
+   }
+   
+   to {
+      color: gray;
+     text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
+   }
+ }
+
+ 

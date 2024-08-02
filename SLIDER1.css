@@ -1,0 +1,50 @@
+/* BACK GROUND IMAGE CHANGE KA ON BY ONE  */
+body,html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.BACK-GROUND{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(RAIL4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 10s infinite ease-in-out;
+}
+
+@keyframes change{
+    0%
+    {
+        background-image: url(img/RAIL7.jpg);
+    }
+    20%
+    {
+        background-image: url(img/RAIL1.jpg);
+    }
+    40%
+    {
+        background-image: url(img/RAIL4.jpg);
+    }
+    60%
+    {
+        background-image: url(img/RAIL2.jpg);
+    }
+    80%
+    {
+        background-image: url(img/RAIL4.jpg);
+    }
+    100%
+    {
+        background-image: url(img/RAIL6.jpg);
+    }
+}
+
+

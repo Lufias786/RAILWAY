@@ -1,0 +1,128 @@
+
+/* STYLE FOR NAVICATION PAR */
+@import "nav.css";
+/* STYLE For LOGIN/REGISTER*/
+body{
+    
+        background: #1690A7;
+    
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+        
+}
+#loginarea{
+    width: 5px;
+    border:2px solid black;
+   
+padding: 5px;
+background: #fff;
+border-radius: 15px;
+align-items:center ;
+justify-content: center;
+background-color: white;
+		width: 20%;
+		margin: auto;
+		border-radius: 25px;
+		border: 2px solid blue;
+		margin-top: 100px;
+		background-color: rgb(255, 255, 255);
+	    box-shadow: inset -2px -2px rgba(0,0,0,0.5);
+	    padding: 20px;
+	    font-family:sans-serif;
+		font-size: 20px;
+		color: white;
+        
+    
+}
+table{
+    background-color: #fff;
+    border: 1px solid white;
+
+}
+*{
+    color:black ;
+    
+}
+
+#submit1{
+    border-radius: 15px;
+    background-color: rgb(61, 171, 204);
+    padding: 7px 7px 7px 7px;
+    box-shadow: inset -1px -1px rgba(0,0,0,0.5);
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-size: 17px;
+    margin:auto;
+    margin-top: 20px;
+      display:block;
+      color: rgb(0, 0, 0);
+}
+#submit1:hover	{
+    border-radius: 20px;
+    background-color: rgb(204, 61, 61);
+    padding: 7px 7px 7px 7px;
+    box-shadow: inset -1px -1px rgba(0,0,0,0.5);
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-size: 17px;
+    margin:auto;
+    margin-top: 20px;
+      display:block;
+      color: rgb(0, 0, 0);
+}
+
+#logintext	{
+    text-align: center;
+    font-size: 30px;
+}
+.data	{
+    color: rgb(0, 0, 0);
+    text-align: center;
+text-decoration: none;
+
+}
+
+
+.logout {
+	
+	background-color: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+	text-decoration: none;
+}
+#submit	{
+    border-radius: 15px;
+    background-color: rgb(61, 171, 204);
+    padding: 7px 7px 7px 7px;
+    box-shadow: inset -1px -1px rgba(0,0,0,0.5);
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-size: 17px;
+    margin:auto;
+    margin-top: 20px;
+      display:block;
+      color: rgb(0, 0, 0);
+      width: 5px;
+      text-decoration: none;
+}
+#submit:hover	{
+    border-radius: 20px;
+    background-color: rgb(204, 61, 61);
+    padding: 7px 7px 7px 7px;
+    box-shadow: inset -1px -1px rgba(0,0,0,0.5);
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-size: 17px;
+    margin:auto;
+    margin-top: 20px;
+      display:block;
+      color: rgb(0, 0, 0);
+}
+.book{
+    border:2px solid black;
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 5px;
+    text-decoration: none;
+}

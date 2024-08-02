@@ -1,0 +1,40 @@
+/* STYLE FOR NAVICATION BAR */
+@import 'nav.css';
+/*LOGO LOGIN/REGISTER*/
+#logo	{ 
+border-radius: 25px;
+  border: 1px solid blue; 
+  width: 100px;
+  height: 100px; 
+}
+*	{
+color: white;
+}
+
+#main	{
+  width:700px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+  color:white;
+  border-radius: 25px;
+    padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background-color: rgba(0,0,0,0.3);
+  font-size: 15px;
+  
+}
+h3:hover a{
+  font-size: 27px;
+  background-color: orange;
+color:black;
+border: 3px solid black;
+-webkit-filter: drop-shadow(10px 10px 10px rgb(157, 255, 0));
+filter: drop-shadow(16px 16px 20px rgb(213, 255, 2));
+}
+
+* a{
+  font-size: 25px;
+}

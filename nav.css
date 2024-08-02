@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  /*
+    Css code writen here...
+  */
+  /*Body section...@*/
+  
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    padding: 18px 0;
+    background-size: 400% 400%;
+    background-image: linear-gradient(-45deg, #ff5959, #ff4040, #ff0d6e, #ff8033,#d74177);
+    animation: 12s myGradient infinite;
+    border-radius: 40px;
+    box-shadow: 3px 3px 20px #ff3352;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  
+  
+  
+  @keyframes myGradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    
+    50%{
+      background-position: 100% 50%;
+    }
+    
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .fa-search{
+    transition: 1s;
+    cursor: pointer;
+    margin-left: 30px;
+  }
+  
+  .active {
+    transition: 1s;
+  }
+  
+  .active1{
+    transition: 1s;
+  }
+  
+  .active2 {
+    transition: 1s;
+  }
+  
+  .active3 {
+    transition: 1s;
+  }
+  
+  li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 45px 45px;
+    font-family: verdana;
+    font-weight: lighter;
+    font-size: 24px;
+    letter-spacing: 1px;
+    opacity: 0.9;
+  }
+  
+  .navigation {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+  
+  .fa-search:hover {
+    color: #fff;
+    animation: 1.5s myFlash linear infinite;
+    text-shadow: 2px 2px 30px #fff;
+    transition: 2s;
+  }
+  
+  .active3:hover {
+    color: #fff;
+    animation: 1.5s myFlash linear infinite;
+    text-shadow: 2px 2px 30px #fff;
+    transition: 2s;
+    margin-top: -100px;
+  }
+  
+  .active2:hover {
+    color: #fff;
+    animation: 1.5s myFlash linear infinite;
+    text-shadow: 2px 2px 30px #fff;
+    transition: 2s;
+  }
+  
+  .active1:hover {
+    color: #fff;
+    animation: 1.5s myFlash linear infinite;
+    text-shadow: 2px 2px 30px #fff;
+    transition: 2s;
+  }
+  
+  .active:hover {
+    color: #fff;
+    animation: 1.5s myFlash linear infinite;
+    text-shadow: 2px 2px 30px #fff;
+    transition: 2s;
+  }
+  
+  @keyframes myFlash {
+    0% {
+      opacity: 1;
+      text-shadow: transparent;
+    }
+    
+    50% {
+      opacity: .1;
+    }
+    
+    100% {
+      opacity: 1;
+      text-shadow: 2px 2px 20px #fff;
+    }
+  }
+  
+  .line-w5 {
+    width: 5px;
+    height: 200px;
+    background: tomato;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 70%;
+    border-radius: 30px;
+    background-image: linear-gradient(-45deg, #ff408c, #ff4040, #6666ff);
+    background-size: 400% 400%;
+    animation: 13s myBackground infinite;
+    box-shadow: 2px 2px 10px #ff2e38;
+    transition: 3s;
+  }
+  
+  @keyframes myBackground {
+    0% {
+      background-position: 0% 50%;
+      opacity: 0%;
+    }
+    
+    50% {
+      background-position: 100% 50%;
+    }
+    
+    100% {
+      background-position: 0% 50%;
+      opacity: 1;
+    }
+  }
+  
+  
+  @keyframes myLinear {
+    0%{
+      width: 50px;
+    }
+    
+    100% {
+      width: 250px;
+    }
+  }
+  
+  .flash-GIF {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ff5959;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 15%;
+    left: 10%;
+    box-shadow: 2px 2px 20px #d4267d;
+    animation: 1.6s myFlash linear infinite;
+  }
+  
+  @keyframes myFlash{
+    0% {
+      opacity: 1;
+    }
+    
+    50%{
+      opacity: .1;
+    }
+    
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  nav {
+    transition: 3s;
+    animation: 3s myAnimation ease linear;
+  }
+  
+  @keyframes myAnimation {
+    0% {
+      opacity: 0;
+    }
+    
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .nav-type {
+    animation: 3s myWorld ease linear;
+  }
+  
+  @keyframes myWorld {
+    0% {
+      opacity: 0;
+    }
+    
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  
+  

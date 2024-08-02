@@ -1,0 +1,67 @@
+@import "nav.css";
+/* body background */
+body{
+    background-image: url(img/RAIL6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+/* STYLE FOR NAVICATION PAR */
+
+
+/* STYLE For LOGIN/REGISTER*/
+#logo	{ 
+	border-radius: 25px;
+    border: 1px solid blue; 
+    width: 100px;
+    height: 100px; 
+}
+*	{
+	color: white;
+}
+
+#main	{
+    width:600px;
+    height: 650px;
+    margin: 0 auto;
+    margin-top: 30px;
+    color:white;
+    border-radius: 25px;
+      padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    
+}
+h3:hover a{
+    font-size: 25px;
+    background-color: orange;
+  color:black;
+  border: 3px solid black;
+  -webkit-filter: drop-shadow(10px 10px 10px rgb(157, 255, 0));
+  filter: drop-shadow(16px 16px 20px rgb(213, 255, 2));
+}
+/* FOR BUTTON SIZE */
+.button{
+    color: black;
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+*{
+    color: black;
+}
+/* FOR NAME,LAST NAME EMAIL ETC TEXT SIE */
+input{
+    font-size: 17px;
+    color: black;
+}
+.button:hover{
+    color: rgb(0, 0, 0);
+    font-size: 27px;
+    border-radius: 20px;
+    background-color: rgb(0, 255, 191);
+}
